@@ -1,0 +1,6 @@
+classes= 7
+train  = cfg/train.txt
+valid  = cfg/val.txt
+names = cfg/IH.names
+backup = backup/
+
