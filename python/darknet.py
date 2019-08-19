@@ -148,8 +148,8 @@ if __name__ == "__main__":
     #meta = load_meta("cfg/imagenet1k.data")
     #r = classify(net, meta, im)
     #print r[:10]
-    net = load_net("cfg/tiny-yolo.cfg", "tiny-yolo.weights", 0)
-    meta = load_meta("cfg/coco.data")
+    net = load_net(b"cfg/tiny-yolo.cfg", b"tiny-yolo.weights", 0)
+    meta = load_meta(b"cfg/coco.data")
     r = detect(net, meta, "data/dog.jpg")
     print r
     
